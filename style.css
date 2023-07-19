@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    background-color: white;
+    color: #0e2045;
+   
+}
+.mainDiv{
+  background-color: #e9edf1;
+  border: solid #3d73dd 4px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-inline: auto;
+  max-width: 380px;
+  height: auto;
+
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vs{
+  font-weight: bold;
+  font-style: italic;
+  background-color: #3d73dd;
+  color:#ffd841 ;
+}
+#btnRoll{
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: #0e2045;
+  color: #e9edf1;
+}
+
+#btnRoll:hover{
+  opacity: 0.7;
+}
+
+.pPoint{
+font-size: 15px;
+}
+.pcom , .puser {
+  font-size: 12px;
+}
+
+
+.btnbutton{
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: #0e2045;
+  color: #e9edf1;
+}
+.btnbutton:hover{
+  opacity: 0.7;
+}
